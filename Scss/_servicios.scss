@@ -1,0 +1,65 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 21px !important;
+    border: 2px solid #5912EA;
+    background: #FFF;
+    width: 305px;
+    margin: 10px 8px;
+
+    img {
+        margin-top: 15px;
+    }
+
+    li {
+        font-weight: bold;
+        margin: 10px 10px;
+        list-style: url(../public/images/tick.png);
+    }
+
+    p {
+        text-align: center;
+        font-weight: 700;
+        font-size: 15.3px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+}
+
+.contact-services {
+    width: 450px;
+    height: 100px;
+    border-radius: 20px;
+    background: #5912EA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    h3{
+       margin: 20px 0;
+       color: white;
+    }
+
+    button {
+        border-radius: 10px;
+        background: #A4FAFF;
+        width: 110px;
+        height: 54px;
+    }
+}

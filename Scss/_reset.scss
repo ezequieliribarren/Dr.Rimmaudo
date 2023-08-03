@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #5912EA !important;
+    text-decoration: none;
+}
+
+h1 {}
+
+h2 {
+    font-family: abaya-extra-bold;
+    font-size: 36px;
+    color: #5912EA;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5912EA;
+    text-align: center;
+}
+
+// h4 {
+//     font-family: titilium;
+//     font-size: 2rem;
+//     color: white;
+// }
+
+// h5 {
+//     font-family: titilium;
+//     font-size: 1.8rem;
+
+
+// }
+
+p {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+
+
+li {
+    font-size: 14px;
+    list-style: none;
+}
+
+
+.margin-title{
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: "abaya";
+    src: url(/public/fonts/TitilliumWeb-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "abaya-extra-bold";
+    src: url(/public/fonts/AbhayaLibre-ExtraBold.ttf);
+    font-display: swap;
+}
