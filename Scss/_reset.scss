@@ -31,11 +31,10 @@ h3 {
     text-align: center;
 }
 
-// h4 {
-//     font-family: titilium;
-//     font-size: 2rem;
-//     color: white;
-// }
+h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+}
 
 // h5 {
 //     font-family: titilium;
@@ -56,9 +55,21 @@ li {
     list-style: none;
 }
 
+.button {
+    border-radius: 10px;
+    background-color: #A4FAFF;
+    width: 110px;
+    height: 52px;
+    margin-bottom: 40px;
+    padding: 14px 24px;
+    color: #5912EA;
+    margin: 10px;
+}
 
 .margin-title{
-    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 25px;
 }
 
 @font-face {
@@ -66,6 +77,13 @@ li {
     src: url(/public/fonts/TitilliumWeb-Regular.ttf);
     font-display: swap;
 }
+
+@font-face {
+    font-family: "roboto-medium";
+    src: url(/public/fonts/Roboto-Medium.ttf);
+    font-display: swap;
+}
+
 
 @font-face {
     font-family: "abaya-extra-bold";

@@ -1,31 +1,18 @@
-.header {
-    display: flex;
-    position: relative;
-    justify-content: center;
+header{
+    padding-top: 100px;
 }
 
-.forma {
-    width: 72%;
-    height: 90vh;
-    background-image: url(../public/images/header/forma.png);
-    background-size: cover;
+.call-to-action {
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 1;
-    /* Asegura que .forma se superponga por encima de otros elementos */
-}
-
-.carousel-container {
-    position: relative;
-    width: 100%;;
-    z-index: 0;
-
-    .carousel-item {
-        height: 90vh;
-        width: 100%;
+    bottom: 140px;
+    left: 50px; 
+  }
+  
+  @media (max-width: 768px) {
+    .call-to-action {
+      bottom: 20px; 
+      left: 20px; 
 
     }
-
-}
+  }
+  

@@ -1,12 +1,11 @@
 import React from 'react'
-import Timeline from '../Timeline/Timeline'
 import LiniaDeTiempo from '../Timeline/Timeline'
 
 
 const Trayectoria = () => {
     return (
         <section id='trayectoria'>
-            <h2>Mi Trayectoria</h2>
+            <h2  className='margin-title'>Mi Trayectoria</h2>
             <div className='capacitations'>
                 <div className='card-capacitations'>
                     <div className='capacitations-img'>
@@ -15,7 +14,7 @@ const Trayectoria = () => {
                     <div className='capacitations-description'>
                         <div><h3>Medico - UBA</h3></div>
                         <div className='line'></div>
-                        <div><p>Me recibí de medico en el año 2000.</p></div>
+                        <div className='p-capacitations'><p>Me recibí de medico en el año 2000.</p></div>
                     </div>
                 </div>
                 <div className='card-capacitations'>
@@ -25,7 +24,7 @@ const Trayectoria = () => {
                     <div className='capacitations-description'>
                         <div><h3>Cardiología - UBA</h3></div>
                         <div className='line'></div>
-                        <div><p>Soy especialista en Cardiología egresado de la Universidad de Buenos Aires.</p></div>
+                        <div className='p-capacitations'><p>Soy especialista en Cardiología egresado de la Universidad de Buenos Aires.</p></div>
                     </div>
                 </div>
                 <div className='card-capacitations'>
@@ -35,14 +34,11 @@ const Trayectoria = () => {
                     <div className='capacitations-description'>
                         <div><h3>Medicina Deportiva - UBA</h3></div>
                         <div className='line'></div>
-                        <div><p>Me especializo en medicina deportiva, puedo guiarte a alcanzar tus objetivos de manera sana.</p></div>
+                        <div className='p-capacitations'><p>Me especializo en medicina deportiva, puedo guiarte a alcanzar tus objetivos de manera sana.</p></div>
                     </div>
                 </div>
             </div>
-            <div className='timeline'>
-
-            </div>
-            <LiniaDeTiempo />
+            <LiniaDeTiempo/>
         </section>
     )
 }

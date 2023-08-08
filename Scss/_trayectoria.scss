@@ -1,101 +1,144 @@
 .capacitations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+
+  .card-capacitations {
+    padding: 10px;
+    height: 275px;
+    width: 420px;
+    border-radius: 22px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin: 20px 0;
-
-    .card-capacitations {
-        padding: 10px;
-        height: 275px;
-        width: 420px;
-        border-radius: 22px;
-        background: #FFF;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 10px;
-
-    }
-
-    .capacitations-description {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 20px;
-    }
-
-    .line{
-        width: 200px;
-        height: 2px;
-        background-color:  #5912EA !important;
-        margin-bottom: 10px;
-    }
-}
-
-
-
-.timeline {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  
-  .timeline__item {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    position: relative;
-  }
-
-
- .timeline__content:hover {
-    transform: scale(1.1);
-  }
-  
-  .timeline__icon {
-    color: #007bff; /* Color azul oscuro */
-    font-size: 23px;
-    margin-right: 5px;
+    margin: 0 10px;
 
   }
-  
-  .timeline__content {
+
+  .capacitations-description {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 20px;
   }
-  
-  .timeline__year {
-    font-size: 16px;
+
+
+  .line {
+    width: 200px;
+    height: 2px;
+    background-color: #3012EA !important;
     margin-bottom: 10px;
   }
-  
-  h4 {
-    font-size: 16px;
 
+  .p-capacitations {
+    height: 90px;
   }
-  
-  h5 {
-    font-size: 14px;
-    margin: 0;
+}
+
+/* TIMELINE */
+
+.timeline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.timeline__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  width: 125px;
+}
+
+
+.timeline__icon {
+  color: #3012EA;
+  font-size: 20px;
+}
+
+
+.line-horizontal-left,
+.line-horizontal-right {
+  width: 52px;
+  height: 2px;
+  background-color: #3012EA;
+  margin: 2px 0;
+  position: absolute;
+  top: 22%;
+}
+
+.line-horizontal-left {
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.line-horizontal-right {
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.timeline__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 120px;
+  height: 130px;
+}
+
+.timeline__content h5 {
+  font-size: 14px;
+  color: gray;
+}
+
+.timeline__content:hover {
+  transform: scale(1.1);
+}
+
+.timeline__title {
+  font-size: 15px;
+  color: #3012EA;
+  text-align: center;
+}
+
+.timeline__year {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+@media (max-width: 638px) {
+  .timeline__item{
+    width: 100%;
+    margin: 10px 0;
   }
-  
-  /* Estilos para las líneas */
-  .timeline__item::before {
-    content: '';
+  .line-horizontal-left,
+  .line-horizontal-right {
+    width: 2px;
+    height: 43px; /* Ajusta la altura de las líneas en pantalla vertical */
     position: absolute;
-    top: 50%;
-    width: 45px; /* Ancho de las líneas */
-    height: 2px; /* Altura de las líneas */
-    background-color: #007bff; /* Color azul oscuro */
-    margin: 0 10px;
   }
-  
-  .timeline__item::before {
-    left: -50px; /* Alineación a la izquierda del icono */
+
+  .line-horizontal-left {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -60px; /* Coloca la línea arriba del punto */
   }
-  
+
+  .line-horizontal-right {
+display: none;
+  }
+}

@@ -1,7 +1,14 @@
-.services {
+#servicios {
+    background-color: #A4FAFF;
+    padding-bottom: 40px;
+}
+
+.content-services {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+
 }
 
 .cards-services {
@@ -43,23 +50,30 @@
 
 .contact-services {
     width: 450px;
-    height: 100px;
+    height: 140px;
     border-radius: 20px;
     background: #5912EA;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
 
-    h3{
-       margin: 20px 0;
-       color: white;
+    h3 {
+        margin: 20px 0;
+        color: white;
     }
 
-    button {
+    a {
         border-radius: 10px;
-        background: #A4FAFF;
+        background-color: #A4FAFF;
         width: 110px;
-        height: 54px;
+        height: 52px;
+        margin-bottom: 40px;
+        padding: 14px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: roboto-medium;
+        color: #5912EA;
     }
 }
