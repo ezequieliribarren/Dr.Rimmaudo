@@ -16,19 +16,19 @@ const Navbar = () => {
                                 <a className="nav-link" href="#">Inicio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Servicios</a>
+                                <a className="nav-link" href="#servicios">Servicios</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link">Mi Trayectoria</a>
+                                <a className="nav-link"  href="#trayectoria">Mi Trayectoria</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link">Mis pacientes</a>
+                                <a className="nav-link"  href="#testimonios">Mis pacientes</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link">Consultorio</a>
+                                <a className="nav-link"  href="#consultorio">Consultorio</a>
                             </li>
                             <li className="nav-item li-contact">
-                                <a className="nav-link">Contacto</a>
+                                <a className="nav-link"  href="#contacto">Contacto</a>
                             </li>
                         </ul>
                     </div>
