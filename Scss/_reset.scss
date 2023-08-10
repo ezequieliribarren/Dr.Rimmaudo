@@ -55,7 +55,7 @@ li {
     list-style: none;
 }
 
-.button {
+.button, .button2 {
     border-radius: 10px;
     background-color: #A4FAFF;
     width: 110px;
@@ -64,9 +64,21 @@ li {
     padding: 14px 24px;
     color: #5912EA;
     margin: 10px;
+    border: none;
+    font-family: roboto-medium;
+    text-align: center;
 }
 
-.margin-title{
+.button2 {
+    padding: 14px 24px;
+    border-radius: 10px;
+    border: 1px solid #A4FAFF;
+    background-color: #5a12ea9d;
+    color: white;
+    font-family: roboto-medium;
+}
+
+.margin-title {
     margin-top: 70px;
     margin-bottom: 30px;
     margin-left: 25px;

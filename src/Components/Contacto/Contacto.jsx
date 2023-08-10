@@ -31,7 +31,7 @@ const Contacto = () => {
             placeholder="Escribe aquí tu consulta..."
             required
           ></textarea>
-          <button type="submit">Enviar</button>
+          <button className='button' type="submit">Enviar</button>
         </form>
       </div>
     </section>

@@ -81,3 +81,35 @@
         color: #5912EA;
     }
 }
+
+.card {
+    position: relative;
+    transition: box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .card-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: none;
+  }
+  
+  .card:hover .card-overlay {
+    display: block;
+  }
+  
+  .saber-mas-button {
+    background-color: #3012EA;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .card-overlay {
+      bottom: 10px;
+      left: 10px;
+    }
+  }
