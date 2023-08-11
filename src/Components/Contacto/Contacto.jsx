@@ -4,7 +4,8 @@ const Contacto = () => {
   return (
     <section id='contacto'>
       <h2 className='margin-title'>Pedí tu turno</h2>
-      <div className='container contacto'>
+      <div className='container contenedor-contacto'>
+          <div className='contacto'>
         <form action="">
           <div className='nombre-apellido'>
             <input
@@ -34,6 +35,14 @@ const Contacto = () => {
           <button className='button' type="submit">Enviar</button>
         </form>
       </div>
+
+      </div>
+      <div className='redes-contacto'>
+          <div><h4>También <br /> visitame en:</h4></div>
+          <div><a href=""><img src="/images/contacto/facebook.png" alt="" />@drrimaudo</a></div>
+          <div><a href=""><img src="/images/contacto/instagram.png" alt="" />@drrimaudo</a></div>
+          <div><a href=""><img src="/images/contacto/google.png" alt="" />Doctor Rimaudo</a></div>
+          </div>
     </section>
 
   )

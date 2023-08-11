@@ -1,5 +1,5 @@
-#trayectoria{
-scroll-margin-top: 7em;
+#trayectoria {
+  scroll-margin-top: 7em;
 }
 
 .capacitations {
@@ -18,7 +18,7 @@ scroll-margin-top: 7em;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 10px;
+    margin: 20px 10px;
 
   }
 
@@ -42,8 +42,28 @@ scroll-margin-top: 7em;
   }
 }
 
-@media (max-width: 364px) {
-  
+@media (max-width: 470px) {
+  .card-capacitations {
+    height: 275px;
+    width: 320px !important;
+    flex-direction: column;
+
+    img {
+      width: 90px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .capacitations-description {
+    margin: 0 20px;
+
+    p {
+      font-size: 15.5px;
+      margin-top: 5px;
+      text-align: center;
+    }
+  }
+
 }
 
 /* TIMELINE */
@@ -129,24 +149,27 @@ scroll-margin-top: 7em;
 }
 
 @media (max-width: 638px) {
-  .timeline__item{
+  .timeline__item {
     width: 100%;
     margin: 10px 0;
   }
+
   .line-horizontal-left,
   .line-horizontal-right {
     width: 2px;
-    height: 43px; /* Ajusta la altura de las líneas en pantalla vertical */
+    height: 43px;
+    /* Ajusta la altura de las líneas en pantalla vertical */
     position: absolute;
   }
 
   .line-horizontal-left {
     left: 50%;
     transform: translateX(-50%);
-    top: -60px; /* Coloca la línea arriba del punto */
+    top: -60px;
+    /* Coloca la línea arriba del punto */
   }
 
   .line-horizontal-right {
-display: none;
+    display: none;
   }
 }

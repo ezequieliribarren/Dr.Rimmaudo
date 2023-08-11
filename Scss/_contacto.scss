@@ -1,4 +1,4 @@
-#consultorio{
+#consultorio {
     margin-bottom: 60px;
     scroll-margin-top: 7em;
 }
@@ -92,22 +92,40 @@
 }
 
 @media (max-width: 680px) {
-    .map-border{
+    .map-border {
         width: 100%;
         height: 100%;
         justify-content: center;
     }
-    .map{
+
+    .map {
         width: 450px;
         height: 480px;
     }
-    .canal{
-        width: 400px;
+
+    .canal {
+        width: 250px;
+        height: 200px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            margin: 15px 0;
+        }
+
+        h4 {
+            margin-top: 25px;
+        }
+
+        .img-canal {
+            margin-top: 15px;
+        }
     }
 }
 
 @media (max-width: 467px) {
-    .map{
+    .map {
         width: 350px;
         height: 390px;
     }
@@ -116,8 +134,19 @@
 // FORMULARIO
 #contacto {
     scroll-margin-top: 5em;
-    background: linear-gradient(to bottom, #A4FAFF 80%, #fff 50%);
+    background: linear-gradient(to bottom, #A4FAFF 70%, #fff 50%);
     padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+    .contenedor-contacto {
+        display: flex !important;
+        justify-content: center !important;
+    }
 
 
     h2 {
@@ -129,24 +158,41 @@
 
 .contacto {
     background-color: #3012EA;
-    z-index: 1;
+    z-index: 0;
     border-radius: 26px;
+    width: 80%;
+}
+
+.redes-contacto {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+
+    a {
+        margin: 0 15px;
+    }
+
+    img {
+        margin-right: 5px;
+    }
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 15px;
 
     input {
-        width: 90%;
+        width: 95%;
         height: 48px;
-        margin: 15px;
+        margin: 10px;
         border-radius: 10px;
 
     }
 
-    input::placeholder, .textarea::placeholder{
+    input::placeholder,
+    .textarea::placeholder {
         color: black;
         font-family: Roboto, sans-serif;
         padding-left: 10px;
@@ -156,7 +202,7 @@ form {
 
     .nombre-apellido {
         display: flex;
-        width: 92.5%;
+        width: 98.5%;
 
         input {
             width: 100%;
@@ -167,13 +213,13 @@ form {
     }
 
     .textarea {
-        width: 90%;
+        width: 95%;
         height: 200px;
         margin: 15px;
         border-radius: 10px;
     }
 
-    .button:hover{
+    .button:hover {
         transform: scale(1.1);
     }
 }

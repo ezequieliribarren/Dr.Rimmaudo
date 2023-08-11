@@ -23,17 +23,37 @@ const Servicios = () => {
               </ul>
             </CardContent>
             <div className='card-overlay'>
-                <a href='#' className='saber-mas-button'>
-                  Saber más
-                </a>
-              </div>
+              <a href='#' className='saber-mas-button'>
+                Saber más
+              </a>
+            </div>
           </Card>
         ))}
 
       </div>
+        <div className='domicilio'>
+          <div className='up-domicilio'>
+            <div className='title-domicilio'>
+              <h3>Nuevo servicio</h3>
+            </div>
+            <div>
+             <img className='none-mobile' src="/images/servicios/domicilio.png" alt="" /> 
+            </div>
+            
+          </div>
+          <div className='description-domicilio'>
+            <div className='img-domicilio'><img src="/images/servicios/domicilio.png" alt="" /></div>
+            <div className='medio-domicilio'>
+              <h4>¡Pedí tu Consulta Cardiológica a Domicilio!</h4>
+              <button className='button'>Consultar</button>
+            </div>
+            <div className='p-domicilio'><p>Priorizamos tu comodidad y bienestar. Consultá por nuestras zonas de cobertura y lleva la atención cardiológica especializada directamente a tu puerta. </p></div>
+          </div>
+
+        </div>
         <div className='contact-services'>
           <h3>¿Querés saber más?</h3>
-          <a   href="https://wa.me/+541164977403" target='_blank'>Contanos</a>
+          <a href="https://wa.me/+541164977403" target='_blank'>Contanos</a>
         </div></div>
 
     </section>

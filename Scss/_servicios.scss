@@ -1,115 +1,321 @@
 #servicios {
-    background-color: #A4FAFF;
-    padding-bottom: 40px;
+  background-color: #A4FAFF;
+  padding-bottom: 40px;
 
-    scroll-margin-top: 4em;
+  scroll-margin-top: 4em;
 
 
 }
 
 .content-services {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
 }
 
 .cards-services {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 15px;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 21px !important;
+  border: 2px solid #5912EA;
+  background: #FFF;
+  width: 305px;
+  margin: 10px 8px;
+
+  img {
+    margin-top: 15px;
+  }
+
+  li {
+    font-weight: bold;
+    margin: 10px 10px;
+    list-style: url(../public/images/tick.png);
+  }
+
+  p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 15.3px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.domicilio {
+  width: 100%;
+  background-color: #3012EA;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  .up-domicilio {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 21px !important;
-    border: 2px solid #5912EA;
-    background: #FFF;
-    width: 305px;
-    margin: 10px 8px;
+    width: 100%;
 
     img {
-        margin-top: 15px;
+      width: 300px !important;
+    }
+  }
+
+  .title-domicilio {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 183px;
+    height: 37px;
+    border-radius: 20px 20px 20px 0px;
+    background: #A4FAFF;
+
+    h3 {
+      text-align: left;
+      color: #3012EA;
+      margin-left: 10px;
+    }
+  }
+
+  .description-domicilio {
+    display: flex;
+    justify-content: space-around;
+
+    .img-domicilio {
+      width: 30%;
+
+      img {
+        width: 100%;
+      }
     }
 
-    li {
-        font-weight: bold;
-        margin: 10px 10px;
-        list-style: url(../public/images/tick.png);
+    .medio-domicilio {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h4 {
+        color: white;
+        font-size: 19px;
+        font-family: roboto-medium;
+      }
+
+      .button {
+        margin-top: 10px;
+      }
     }
 
-    p {
-        text-align: center;
-        font-weight: 700;
-        font-size: 15.3px;
-        margin-top: 20px;
-        margin-bottom: 25px;
+    .p-domicilio {
+      width: 30%;
+      display: flex;
+      align-items: center;
+
+      p {
+        font-size: 16px;
+        color: white;
+        padding: 0px 10px;
+      }
     }
+
+
+  }
+
 
 }
 
+
+
 .contact-services {
-    width: 450px;
-    height: 140px;
-    border-radius: 20px;
-    background: #5912EA;
+  width: 340px;
+  height: 140px;
+  border-radius: 20px;
+  background: #3012EA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+
+  h3 {
+    margin: 20px 0;
+    color: white;
+  }
+
+  a {
+    border-radius: 10px;
+    background-color: #A4FAFF;
+    width: 110px;
+    height: 52px;
+    margin-bottom: 40px;
+    padding: 14px 24px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-top: 30px;
-
-    h3 {
-        margin: 20px 0;
-        color: white;
-    }
-
-    a {
-        border-radius: 10px;
-        background-color: #A4FAFF;
-        width: 110px;
-        height: 52px;
-        margin-bottom: 40px;
-        padding: 14px 24px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: roboto-medium;
-        color: #5912EA;
-    }
+    justify-content: center;
+    font-family: roboto-medium;
+    color: #5912EA;
+  }
 }
 
 .card {
-    position: relative;
-    transition: box-shadow 0.3s;
-  }
-  
-  .card:hover {
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-  }
-  
-  .card-overlay {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    display: none;
-  }
-  
-  .card:hover .card-overlay {
-    display: block;
-  }
-  
-  .saber-mas-button {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  /* Resto de tus estilos para la tarjeta */
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 10px 13px rgba(0, 0, 0, 0.25);
+}
+
+
+.card:hover .saber-mas-button {
+  background-color: #3012EA;
+  color: #A4FAFF !important;
+}
+
+
+
+.saber-mas-button {
+  display: flex;
+  width: 287px;
+  padding: 18px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 2px solid #3012EA;
+  font-size: 17px;
+  font-family: roboto-medium;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+  /* Añade transición al resplandor */
+
+  &:hover {
     background-color: #3012EA;
-    color: white;
+    color: #A4FAFF !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    /* Agrega resplandor al pasar el cursor */
   }
-  
-  @media (max-width: 768px) {
-    .card-overlay {
-      bottom: 10px;
-      left: 10px;
+}
+
+@media (max-width: 920px) {
+
+  .title-domicilio {
+
+    .none-mobile {
+      display: block !important;
+      width: 250px;
     }
   }
+
+  .description-domicilio {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+
+    .img-domicilio,
+    .p-domicilio,
+    .medio-domicilio {
+      width: 100% !important;
+
+      p {
+        padding: 0 55px !important;
+        margin-top: 15px;
+
+      }
+
+      img {
+        display: none;
+      }
+
+    }
+
+  }
+}
+
+@media (max-width: 768px) {
+  .card-overlay {
+    bottom: 10px;
+    left: 10px;
+  }
+}
+
+@media (max-width: 472px) {
+
+  .contact-services {
+    width: 200px;
+
+    h3 {
+      font-size: 17px !important
+    }
+  }
+
+  .domicilio {
+
+    h4,
+    p {
+      font-size: 16px !important;
+    }
+
+    .up-domicilio {
+      .title-domicilio {
+        height: 25px;
+        width: 160px;
+      }
+
+      h3 {
+        font-size: 17px;
+      }
+
+      img {
+        width: 200px !important;
+      }
+    }
+
+    .medio-domicilio {
+      .button {
+        height: 40px;
+        width: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 336px) {
+  .domicilio {
+
+    h4,
+    p {
+      font-size: 15px !important;
+    }
+
+    .up-domicilio {
+
+      h3 {
+        font-size: 15px !important;
+      }
+
+      .none-mobile {
+        display: none !important;
+      }
+    }
+
+  }
+}

@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 html {
@@ -58,16 +59,18 @@ li {
 .button, .button2 {
     border-radius: 10px;
     background-color: #A4FAFF;
-    width: 110px;
+    width: 114px;
     height: 52px;
     margin-bottom: 40px;
+    margin: 0 10px;
     padding: 14px 24px;
     color: #5912EA;
-    margin: 10px;
     border: none;
     font-family: roboto-medium;
     text-align: center;
 }
+
+
 
 .button2 {
     padding: 14px 24px;
