@@ -31,7 +31,8 @@ const Servicios = () => {
         ))}
 
       </div>
-        <div className='domicilio'>
+      <div className='p-5'>
+          <div className='domicilio'>
           <div className='up-domicilio'>
             <div className='title-domicilio'>
               <h3>Nuevo servicio</h3>
@@ -45,16 +46,18 @@ const Servicios = () => {
             <div className='img-domicilio'><img src="/images/servicios/domicilio.png" alt="" /></div>
             <div className='medio-domicilio'>
               <h4>¡Pedí tu Consulta Cardiológica a Domicilio!</h4>
-              <button className='button'>Consultar</button>
+              <a href=""><button className='button'>Consultar</button></a>
             </div>
             <div className='p-domicilio'><p>Priorizamos tu comodidad y bienestar. Consultá por nuestras zonas de cobertura y lleva la atención cardiológica especializada directamente a tu puerta. </p></div>
           </div>
 
         </div>
         <div className='contact-services'>
-          <h3>¿Querés saber más?</h3>
-          <a href="https://wa.me/+541164977403" target='_blank'>Contanos</a>
+          <h3>¿Querés más información de nuestros servicios?</h3>
+          <a href="https://wa.me/+541164977403" target='_blank'> <button className='button3'>Contanos</button></a>
         </div></div>
+      </div>
+      
 
     </section>
   )

@@ -14,8 +14,8 @@ const Testimonios = () => {
   return (
     <section id='testimonios'>
       <h2 className='margin-title'>Mis pacientes</h2>
-      <h3>Conocé algunos de los testimonios de mis pacientes</h3>
-      <div className='container'>
+      <h3>Conocé testimonios de mis pacientes</h3>
+      <div className='container testimonios'>
         <Carousel breakPoints={breakPoints}>
           {testimonios.map((testimonio) => (
             <div key={testimonio.id} className='testimonio'>

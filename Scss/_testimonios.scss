@@ -1,15 +1,17 @@
 #testimonios {
   background-color: #3012EA;
-  padding-top: 1px;
   padding-bottom: 30px;
   scroll-margin-top: 8em;
 
-
+  .testimonios{
+    margin-top: 10px !important;
+  }
 
   h2 {
-
     color: #A4FAFF;
     margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 30px !important;
 
   }
 
