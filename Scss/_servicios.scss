@@ -30,7 +30,7 @@ h2{
   border-radius: 21px !important;
   border: 2px solid #5912EA;
   background: #FFF;
-  width: 305px;
+  width: 310px;
   margin: 10px 8px;
 
   img {
@@ -46,9 +46,15 @@ h2{
   p {
     text-align: center;
     font-weight: 700;
-    font-size: 15.3px;
+    font-size: 15.1px;
     margin-top: 20px;
     margin-bottom: 25px;
+    height: 135px;
+    width: 100%;
+  }
+
+  h3{
+    height: 40px;
   }
 
 }
@@ -59,6 +65,9 @@ h2{
   align-items: center;
 }
 
+.ul-card{
+  height: 190px;
+}
 .domicilio {
   width: 100%;
   background-color: #3012EA;
@@ -105,6 +114,14 @@ h2{
       }
     }
 
+    .img-mobile-domicilio{
+      display: none;
+    }
+
+    .p-mobile-domicilio{
+      display: none;
+    }
+
     .medio-domicilio {
       width: 40%;
       display: flex;
@@ -142,22 +159,25 @@ h2{
 
 
 }
-
+.down-services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-services-title{
+  text-align: center;
+  font-size: 29px;
+}
 
 
 .contact-services {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center !important;
+  justify-content: center !important;
   margin-top: 40px;
 
-  h3 {
-    margin: 20px 0;
-    color: #3012EA;
-    font-family: abaya-extra-bold;
-    font-size: 32px;
-  }
 
 button{
   display: flex;
@@ -184,7 +204,6 @@ button{
 }
 
 
-
 .saber-mas-button {
   display: flex;
   width: 260px;
@@ -202,24 +221,28 @@ button{
     background-color: #3012EA;
     color: #A4FAFF !important;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    /* Agrega resplandor al pasar el cursor */
+
   }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1037px) {
 
-  .title-domicilio {
 
-    .none-mobile {
-      display: block !important;
-      width: 250px;
-    }
+  .none-domicilio{
+    display: none !important;
+  }
+
+  .p-mobile-domicilio{
+    display: block !important;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    width: 300px !important;
   }
 
   .description-domicilio {
     flex-direction: column;
     align-items: center;
-    margin-top: 24px;
 
     .img-domicilio,
     .p-domicilio,
@@ -238,7 +261,15 @@ button{
 
     }
 
+    .img-mobile-domicilio{
+      display: block !important;
+      margin-bottom: 15px;
+    }
+
   }
+
+
+
 }
 
 @media (max-width: 768px) {
@@ -262,7 +293,8 @@ button{
 
     h4,
     p {
-      font-size: 16px !important;
+      font-size: 15px !important;
+      text-align: center;
     }
 
     .up-domicilio {
@@ -292,6 +324,17 @@ button{
 
   }
 }
+
+.img-mobile-domicilio{
+  width: 90px;
+  margin-top: 10px;
+}
+.description-domicilio{
+  .p-mobile-domicilio{
+  font-size: 14px !important;
+}
+}
+
 
 @media (max-width: 336px) {
   .domicilio {

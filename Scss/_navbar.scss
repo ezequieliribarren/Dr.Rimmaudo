@@ -5,6 +5,7 @@
     width: 100%;
     z-index: 1;
     top: 0 ;
+    left: 0 !important;
 
 
     .navbar-nav {
@@ -31,4 +32,13 @@
         }
 
     }
+}
+
+@media (max-width: 580px) {
+    .navbar{
+          .logo-navbar{
+        width: 150px !important;
+    }
+    }
+  
 }

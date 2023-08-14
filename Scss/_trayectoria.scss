@@ -158,6 +158,12 @@
 }
 
 @media (max-width: 638px) {
+
+  #trayectoria{
+    h2{
+      text-align: center;
+    }
+  }
   .timeline__item {
     width: 100%;
     margin: 10px 0;

@@ -14,28 +14,29 @@ const Footer = () => {
                         <div className='iconos-redes'>
                             <img src="/images/face.png" alt="Facebook" />
                             <img src="/images/insta.png" alt="Instagram" />
+                            <img src="/images/contacto/gog.png" alt="Google" />
                         </div>
                     </div>
                 </div>
                 <div className="links">
                     <div>
-                        <a href="">Servicios</a>
+                        <a href="#servicios">Servicios</a>
                     </div>
 
                     <div>
-                        <a href="">Mi Trayectoria</a>
+                        <a href="#trayectoria">Mi Trayectoria</a>
                     </div>
 
                     <div>
-                        <a href="">Mis Pacientes</a>
+                        <a href="#testimonios">Mis Pacientes</a>
                     </div>
 
                     <div>
-                        <a href="">Mi Consultorio</a>
+                        <a href="#consultorio">Mi Consultorio</a>
                     </div>
 
                     <div>
-                        <a href="">Contacto</a>
+                        <a href="#contacto">Contacto</a>
                     </div>
 
                 </div>

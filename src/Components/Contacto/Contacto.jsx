@@ -24,6 +24,11 @@ const Contacto = () => {
             placeholder="Correo Electrónico"
             required
           />
+            <input
+            type="tel"
+            placeholder="Telefono"
+            required
+          />
           <textarea className='textarea'
             name="consulta"
             id=""
@@ -39,9 +44,9 @@ const Contacto = () => {
       </div>
       <div className='redes-contacto'>
           <div><h4>También <br /> visitame en:</h4></div>
-          <div><a href=""><img src="/images/contacto/facebook.png" alt="" />@drrimaudo</a></div>
-          <div><a href=""><img src="/images/contacto/instagram.png" alt="" />@drrimaudo</a></div>
-          <div><a href=""><img src="/images/contacto/google.png" alt="" />Doctor Rimaudo</a></div>
+          <div className='red'><a href=""><img src="/images/contacto/facebook.png" alt="" />@drrimaudo</a></div>
+          <div className='red'><a href=""><img src="/images/contacto/instagram.png" alt="" />@drrimaudo</a></div>
+          <div className='red'><a href=""><img src="/images/contacto/google.png" alt="" />Doctor Rimaudo</a></div>
           </div>
     </section>
 

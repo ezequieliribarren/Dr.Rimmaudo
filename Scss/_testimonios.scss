@@ -9,9 +9,9 @@
 
   h2 {
     color: #A4FAFF;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-top: 10px;
-    padding-top: 30px !important;
+    padding-top: 40px !important;
 
   }
 
@@ -19,9 +19,9 @@
     font-family: Roboto, sans-serif;
     color: white;
     text-align: left;
-    font-size: 14px;
-    margin-left: 15px;
-    margin-bottom: 20px;
+    font-size: 15px;
+    margin-left: 23px;
+    margin-bottom: 25px;
   }
 
 
@@ -65,23 +65,45 @@
 }
 
 @media (max-width: 767px) {
+  #testimonios{
+    h2{
+      text-align: center !important;
+    }
+    h3{
+      text-align: center !important;
+    }
+  }
   .testimonio {
     p {
       font-size: 14.5px;
       padding: 0px;
+      text-align: center;
+      margin: 0 !important;
     }
   }
 }
 
 @media (max-width: 500px) {
   .testimonio {
+    flex-direction: column;
     img {
-      display: none;
+      width: 90px;
+      margin-bottom: 10px;
     }
 
     p {
       font-size: 13px;
-      padding: 0px;
+      padding: 0px !important;
+      text-align: center;
     }
   }
 }
+
+@media (max-width: 380px) {
+  .testimonio{
+    img{
+      width: 50px;
+    }
+  }
+}
+
