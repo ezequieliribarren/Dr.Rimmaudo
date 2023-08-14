@@ -5,10 +5,22 @@
     h2 {
         margin-bottom: 10px !important;
     }
+
+
 }
 
 
 // LEFT
+
+.canales-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horario-atencion{
+    margin-top: 25px;
+}
 
 .canal {
     width: 500px;

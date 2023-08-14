@@ -29,6 +29,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <a className='whatsFlot' href="https://wa.me/+541164977403?text=Hola,%20estoy%20en%20la%20página%20del%20Dr.%20Rimmaudo%20y%20quiero%20 pedir%20más%20información"><img alt="Chatear en Whatsapp" src="/images/wp.png" />  </a>
     </header>
   )
 }

@@ -27,6 +27,20 @@ header {
   display: none !important;
 }
 
+.whatsFlot {
+  position: fixed;
+  top: 80%;
+  left: 85%;
+  color: white;
+  text-decoration: none;
+  z-index: 100;
+
+  img {
+      width: 4rem;
+  }
+}
+
+
 
 @media (max-width: 1200px) {
   .call-to-action {
@@ -67,6 +81,11 @@ header {
 }
 
 @media (max-width: 768px) {
+  .whatsFlot {
+    img {
+        width: 3.8rem;
+    }}
+
   header{
     padding-top: 80px !important;
   }
@@ -87,6 +106,12 @@ header {
 }
 
 @media (max-width: 550px) {
+
+  .whatsFlot {
+    img {
+        width: 3.2rem;
+    }}
+
   .call-to-action {
     bottom: 5px !important;
     left: 15px !important;
@@ -105,6 +130,11 @@ header {
 }
 
 @media (max-width: 364px) {
+
+  .whatsFlot {
+    img {
+        width: 2.7rem;
+    }}
 
   .call-to-action {
     bottom: 3px !important;

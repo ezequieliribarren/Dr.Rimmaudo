@@ -32,6 +32,9 @@ const Consultorio = () => {
                                 </div>
                                 <h4>11-6497-7403</h4> <a href="tel:+541164977403">llamar</a>
                             </div>
+                            <div className='horario-atencion'>
+                                <h4><strong>Horario de atención telefónica:</strong> Lunes a Viernes de 9 a 20 hs.</h4>
+                            </div>
                         </div>
                     </div>
                     <div className="col contenedor-maps">
