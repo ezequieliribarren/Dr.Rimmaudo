@@ -6,7 +6,9 @@
     z-index: 1;
     top: 0 ;
     left: 0 !important;
-
+.logo-navbar{
+    width: 300px;
+}
     .close-icon {
         font-size: 1.8rem;
         font-weight: 700;
@@ -44,7 +46,7 @@
 @media (max-width: 580px) {
     .navbar{
           .logo-navbar{
-        width: 150px !important;
+        width: 170px !important;
     }
     }
   
