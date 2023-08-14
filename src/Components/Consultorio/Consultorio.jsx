@@ -47,6 +47,7 @@ const Consultorio = () => {
                                     height="450"
                                     loading="lazy"
                                 ></iframe>
+                                <h4 className='direccion'>Agustín Cafferata 5210, Caseros</h4>
                             </div>
 
                         </div>

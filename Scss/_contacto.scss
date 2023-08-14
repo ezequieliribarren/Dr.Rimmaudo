@@ -10,8 +10,6 @@
 }
 
 
-// LEFT
-
 .canales-contacto{
     display: flex;
     flex-direction: column;
@@ -20,6 +18,12 @@
 
 .horario-atencion{
     margin-top: 25px;
+}
+
+.direccion{
+    margin-top: 15px;
+    color: #3012EA;
+    text-align: center;
 }
 
 .canal {
@@ -168,6 +172,9 @@
     .map {
         width: 350px;
         height: 390px;
+    }
+    .direccion{
+        font-size: 14px;
     }
 }
 
