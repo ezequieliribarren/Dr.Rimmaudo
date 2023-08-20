@@ -19,6 +19,7 @@ h2{
 .cards-services {
   display: flex;
   justify-content: center;
+  align-items: center; 
   flex-wrap: wrap;
   padding: 0 15px;
 }
@@ -30,7 +31,7 @@ h2{
   border-radius: 21px !important;
   border: 2px solid #3012EA;
   background: #FFF;
-  width: 310px;
+  width: 400px;
   margin: 10px 8px;
 
   img {
@@ -39,25 +40,17 @@ h2{
 
   li {
     font-weight: bold;
-    margin: 10px 10px;
+    margin: 12px 0px;
+    margin-left: 10px; 
     list-style: url(../public/images/tick.png);
-  }
-
-  p {
-    text-align: center;
-    font-weight: 700;
-    font-size: 15.1px;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    height: 135px;
-    width: 100%;
+    text-align: left;
   }
 
   h3{
-    height: 40px;
+    height: 30px;
+    font-size: 19px;
   }
 
-}
 
 .card-content {
   display: flex;
@@ -66,8 +59,13 @@ h2{
 }
 
 .ul-card{
-  height: 190px;
+margin-bottom: 15px;
+width: 100%;
+padding: 5px !important;
 }
+}
+
+
 .domicilio {
   width: 100%;
   background-color: #3012EA;
@@ -214,7 +212,7 @@ button{
   border: 2px solid #3012EA;
   font-size: 17px;
   font-family: roboto-medium;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 
   &:hover {
