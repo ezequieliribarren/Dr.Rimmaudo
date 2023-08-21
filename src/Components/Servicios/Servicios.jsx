@@ -51,7 +51,7 @@ const Servicios = () => {
               </CardContent>
               <div className='card-overlay'>
                 {expandedCard === service.id ? (
-                  <button className='saber-mas-button' onClick={handleCloseCard}>
+                  <button className='cerrar' onClick={handleCloseCard}>
                     Cerrar
                   </button>
                 ) : (

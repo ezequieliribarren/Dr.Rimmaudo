@@ -34,7 +34,7 @@ const services = [
     {
         id: 4,
         titulo: "Especialista en cardiología",
-        img: "/images/servicios/img2.png",
+        img: "/images/servicios/img7.png",
         li1: "Interrogatorio en búsqueda de factores de riesgo cardiovascular, antecedentes cardiovasculares personales o familiares.",
         li2: "Lectura de estudios del paciente con su evaluación, revisión de la medicación habitual, y posteriores recomendaciones, segun lo que surja de la consulta.",
         li3: "Examen físico (peso talla, agudeza visual y vision fotocromatica aproximada).",
@@ -45,7 +45,7 @@ const services = [
     {
         id: 5,
         titulo: "Consulta Especialista en Medicina Deportiva",
-        img: "/images/servicios/img4.png",
+        img: "/images/servicios/img3.png",
         li1: "Apto físico completo. Orientacion en la recuperacion de lesiones y en el tipo de ejercicio o deporte. Desarrollo de buenos hábitos.",
         li2: "Medición de masa grasa - masa muscular y estudios que surjan durante la consulta. ",
         li3: "Es apropiado realizar una ergometria para medir la capacidad funcional, o estado físico , o estimar el consumo maximo de oxigeno.",
@@ -55,7 +55,7 @@ const services = [
     {
         id: 6,
         titulo: "Riesgo Quirúrgico Cardiovascular",
-        img: "/images/servicios/img5.png",
+        img: "/images/servicios/img2.png",
         li1: "Interrogatorio en búsqueda de factores de riesgo cardiovascular, antecedentes cardiovasculares personales o familiares.",
         li2: "Emisión de constancia de medición de riesgo de sufrir un evento cardiovascular ante el estres de una cirugía no cardíaca",
         li3: "Posibles resultados: Habitual - Elevado - Muy elevado",
@@ -74,8 +74,8 @@ const services = [
     },
     {
         id: 8,
-        titulo: "Ergometrica Graduada de 12 canales",
-        img: "/images/servicios/img7.png",
+        titulo: "Ergometría Graduada de 12 canales",
+        img: "/images/servicios/img5.png",
         li1: "Prueba de esfuerzo de 12 canales",
         li2: "Diagnóstico de patologías cardíacas asintomáticas en el reposo que se pueden diagnosticar en el esfuerzo",
         li3: "También mide la capacidad de ejercicio de una persona, para evaluar su progreso en un plan de entrenamiento, (mide el 100% de su capacidad de esfuerzo).",
@@ -96,7 +96,7 @@ const services = [
     {
         id: 10,
         titulo: "Presurometria (24hs)",
-        img: "/images/servicios/img8.png",
+        img: "/images/servicios/img4.png",
         li1: "Estudio fundamental para el correcto seguimiento y diagnostico del paciente con Hipertensión Arterial.",
         li2: "Registra los promedios de las cifras de las tomas de tensión arterial.",
         li3: "Evalua el patrón circadiano.",

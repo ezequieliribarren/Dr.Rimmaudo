@@ -39,7 +39,7 @@ h2{
   }
 
   li {
-    font-weight: bold;
+    // font-weight: bold;
     margin: 12px 0px;
     margin-left: 10px; 
     list-style: url(../public/images/tick.png);
@@ -221,6 +221,20 @@ button{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 
   }
+}
+
+.cerrar{
+  display: flex;
+  width: 260px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 2px solid #3012EA;
+  font-size: 17px;
+  font-family: roboto-medium;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
 @media (max-width: 1037px) {
