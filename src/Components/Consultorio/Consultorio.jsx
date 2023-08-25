@@ -3,12 +3,12 @@ import React from 'react';
 const Consultorio = () => {
     return (
         <section id='consultorio'>
-            <h2 className='margin-title'>Mi Consultorio</h2>
+            <h2 className='margin-title'>Consultorios</h2>
             <div className='container-fluid'>
                 <div className="row p-3">
                     <div className="col consult-left">
                         <p>
-                            Mi consultorio se encuentra ubicado en Caseros, Tres de Febrero. Trabajamos sólo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
+                            Disponemos de tres consultorios. Dos ubicdos en la zona de capital y uno en la zona de Caseros ( Tres de Febrero - Provincia de Bs. As.). Trabajamos sólo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
                         </p>
                         <p>
                             Si estás buscando un enfoque personalizado y comprometido con tu bienestar cardiovascular, no dudes en contactarme para programar tu consulta. Mi objetivo es acompañarte en el camino hacia una vida más saludable, brindándote las mejores opciones de tratamiento y cuidado para tu salud.

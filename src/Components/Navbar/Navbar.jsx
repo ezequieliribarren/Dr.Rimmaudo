@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand px-3" href="#"><img className='logo-navbar' src="./images/logo.png" alt="" /></a>
+          <Link smooth to="/#" className="navbar-brand px-3"><img className='logo-navbar' src="./images/logo.png" alt="" /></Link>
           <button
             className={`navbar-toggler ${isMenuOpen ? "collapsed" : ""}`}
             type="button"
@@ -29,22 +30,36 @@ const Navbar = () => {
           <div className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`} id="navbarNav">
             <ul className="navbar-nav ms-auto px-5">
               <li className="nav-item">
-                <a className="nav-link" href="#">Inicio</a>
+                <li className="nav-item">
+                  <Link className="nav-link" smooth to="/#">
+                    Inicio
+                  </Link>
+                </li>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#servicios">Servicios</a>
+                <Link smooth to="/#servicios" className="nav-link">
+                  Servicios
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link"  href="#trayectoria">Mi Trayectoria</a>
+                <Link smooth to="/#trayectoria" className="nav-link">
+                  Mi trayectoria
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link"  href="#testimonios">Mis pacientes</a>
+                <Link smooth to="/#testimonios" className="nav-link">
+                  Mis pacientes
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link"  href="#consultorio">Consultorio</a>
+                <Link smooth to="/#consultorio" className="nav-link">
+                  Consultorio
+                </Link>
               </li>
               <li className="nav-item li-contact">
-                <a className="nav-link"  href="#contacto">Contacto</a>
+                <Link smooth to="/#contacto" className="nav-link">
+                  Contacto
+                </Link>
               </li>
             </ul>
           </div>

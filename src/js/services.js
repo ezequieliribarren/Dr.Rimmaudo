@@ -12,7 +12,7 @@ const services = [
     {
         id: 2,
         titulo: "Certificado de Aptitud Psicofísica",
-        img: "/images/servicios/img1.png",
+        img: "/images/servicios/img2.png",
         li1: "Interrogatorio en búsqueda de factores de riesgo cardiovascular.",
         li2: "Evaluación por teleconferencia con una licenciada en psicología.",
         li3: "Examen físico (peso talla, agudeza visual y vision fotocromatica aproximada).",
@@ -34,7 +34,7 @@ const services = [
     {
         id: 4,
         titulo: "Especialista en cardiología",
-        img: "/images/servicios/img7.png",
+        img: "/images/servicios/img10.png",
         li1: "Interrogatorio en búsqueda de factores de riesgo cardiovascular, antecedentes cardiovasculares personales o familiares.",
         li2: "Lectura de estudios del paciente con su evaluación, revisión de la medicación habitual, y posteriores recomendaciones, segun lo que surja de la consulta.",
         li3: "Examen físico (peso talla, agudeza visual y vision fotocromatica aproximada).",
@@ -44,8 +44,8 @@ const services = [
  
     {
         id: 5,
-        titulo: "Consulta Especialista en Medicina Deportiva",
-        img: "/images/servicios/img3.png",
+        titulo: "Especialista en Medicina Deportiva",
+        img: "/images/servicios/img11.png",
         li1: "Apto físico completo. Orientacion en la recuperacion de lesiones y en el tipo de ejercicio o deporte. Desarrollo de buenos hábitos.",
         li2: "Medición de masa grasa - masa muscular y estudios que surjan durante la consulta. ",
         li3: "Es apropiado realizar una ergometria para medir la capacidad funcional, o estado físico , o estimar el consumo maximo de oxigeno.",
@@ -55,7 +55,7 @@ const services = [
     {
         id: 6,
         titulo: "Riesgo Quirúrgico Cardiovascular",
-        img: "/images/servicios/img2.png",
+        img: "/images/servicios/img9.png",
         li1: "Interrogatorio en búsqueda de factores de riesgo cardiovascular, antecedentes cardiovasculares personales o familiares.",
         li2: "Emisión de constancia de medición de riesgo de sufrir un evento cardiovascular ante el estres de una cirugía no cardíaca",
         li3: "Posibles resultados: Habitual - Elevado - Muy elevado",
@@ -65,7 +65,7 @@ const services = [
     {
         id: 7,
         titulo: "Especialista en Electrofisiología y Marcapasos",
-        img: "/images/servicios/img6.png",
+        img: "/images/servicios/img12.png",
         li1: "Interrogatorio en búsqueda de padecimientos de arritmias ya conocidas, sintomas de palpitaciones, perdidas de la conciencia inexplicables (sincopes)",
         li2: "Examen físico (peso talla, agudeza visual y vision fotocromatica aproximada).",
         li3: "Pacientes portadores de dispositivos intracardiacos",
@@ -85,7 +85,7 @@ const services = [
     {
         id: 9,
         titulo: "Monitoreo Holter 3 canales (24hs)",
-        img: "/images/servicios/img8.png",
+        img: "/images/servicios/img6.png",
         li1: "Estudio que graba 24 hs la actividad eléctrica del corazon",
         li2: "Contabiliza la cantidad de latidos normales, anormales, taquicardias y las bradicardia. Las agrupa y clasifica",
         li3: "El software debe ser de primera line, el estudio debe ser leido por un experto en arrtmias y marcapasos",

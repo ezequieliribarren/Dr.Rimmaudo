@@ -1,26 +1,23 @@
-import Consultorio from "./Components/Consultorio/Consultorio"
-import Contacto from "./Components/Contacto/Contacto"
-import Footer from "./Components/Footer/Footer"
-import Header from "./Components/Header/Header"
-import Navbar from "./Components/Navbar/Navbar"
-import Servicios from "./Components/Servicios/Servicios"
-import Testimonios from "./Components/Testimonios/Testimonios"
-import Trayectoria from "./Components/Trayectoria/Trayectoria"
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'; //
+
+import Exito from "./Components/Exito/Exito"
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import Layout from "./Components/Layout/Layout";
+import Error from "./Components/Error/Error";
 
 function App() {
 
 
   return (
     <>
-<Navbar/>
-<Header/>
-<Servicios/>
-<Trayectoria/>
-<Testimonios/>
-<Consultorio/>
-<Contacto/>
-<Footer/>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Layout />} />
+          <Route path="/enviado" element={<Exito/>} />
+          <Route path="/error" element={<Error />} />
+        </Routes>
+      </HashRouter>
+
     </>
   )
 }

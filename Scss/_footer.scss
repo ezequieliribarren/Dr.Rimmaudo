@@ -13,6 +13,11 @@ footer {
     .logo-footer {
         display: flex;
         justify-content: center;
+
+        img{
+                   width: 500px; 
+        }
+
     }
 
     .redes-footer {
@@ -72,10 +77,10 @@ footer {
     }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 580px) {
     .logo-footer {
         img {
-            width: 300px;
+            width: 350px !important;
         }
     }
 
@@ -92,6 +97,14 @@ footer {
     .links {
         a {
             font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .logo-footer {
+        img {
+            width: 280px !important;
         }
     }
 }

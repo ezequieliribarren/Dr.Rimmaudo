@@ -6,12 +6,12 @@ const LiniaDeTiempo = () => {
     { id: 1, year: '2000', title: 'Médico', institution: 'UBA' },
     { id: 2, year: '2003', title: 'Médico residente de cardiología', institution: 'Hospital Durand' },
     { id: 3, year: '2009', title: 'Fellow de electrofisiología cardíaca', institution: 'Fund. Favaloro' },
-    { id: 4, year: '2010', title: 'Especialista en medicina deportiva', institution: 'UBA' },
-    { id: 5, year: '2012', title: 'Especialista en administración hospitalaria', institution: 'UBA' },
-    { id: 6, year: '2022', title: 'Jefe de la unidad de internación coronaria', institution: 'Hospital Pirovano' },
-    { id: 7, year: '2022', title: 'Jefe de centro de electrofisiología y marcapasos', institution: 'Hospital Pirovano' },
-    { id: 8, year: '2023', title: 'Jefe de la división de cardiología', institution: 'Hospital Pirovano' },
-    { id: 9, year: '2023', title: 'Titular y Fundador de la Asociación de Médicos Deportólogos de Argentina', institution: 'AMDARG' },
+    { id: 4, year: '2010', title: 'Medicina deportiva', institution: 'UBA' },
+    { id: 5, year: '2012', title: 'Administración hospitalaria', institution: 'UBA' },
+    { id: 6, year: '2022', title: 'Jefe de internación coronaria', institution: 'Hospital Pirovano' },
+    { id: 7, year: '2022', title: 'Jefe de electrofisiología y marcapasos', institution: 'Hospital Pirovano' },
+    { id: 8, year: '2023', title: 'Jefe de cardiología', institution: 'Hospital Pirovano' },
+    { id: 9, year: '2023', title: 'Fundador de la Asociación de Médicos Deportólogos de Argentina', institution: 'AMDARG' },
   ];
 
   return (
