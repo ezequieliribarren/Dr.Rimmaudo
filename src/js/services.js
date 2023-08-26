@@ -33,7 +33,7 @@ const services = [
 
     {
         id: 4,
-        titulo: "Especialista en cardiología",
+        titulo: "Especialista en Cardiología",
         img: "/images/servicios/img10.png",
         li1: "Interrogatorio en búsqueda de factores de riesgo cardiovascular, antecedentes cardiovasculares personales o familiares.",
         li2: "Lectura de estudios del paciente con su evaluación, revisión de la medicación habitual, y posteriores recomendaciones, segun lo que surja de la consulta.",
