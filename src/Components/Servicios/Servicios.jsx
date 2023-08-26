@@ -32,7 +32,7 @@ const Servicios = () => {
                 transition: 'max-height 1.2s ease',
               }}
             >
-              <img src={service.img} alt="" />
+              <img src={service.img} alt="Servicio" />
               <CardContent>
                 <h3>{service.titulo}</h3>
                 {expandedCard === service.id && (

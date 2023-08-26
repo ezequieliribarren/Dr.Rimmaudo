@@ -19,7 +19,7 @@ const Testimonios = () => {
         <Carousel breakPoints={breakPoints}>
           {testimonios.map((testimonio) => (
             <div key={testimonio.id} className='testimonio'>
-              <img src={testimonio.imgUrl} alt="" />
+              <img src={testimonio.imgUrl} alt="Testimonio" />
               <div>
                 <p>{testimonio.description}</p>
               </div>

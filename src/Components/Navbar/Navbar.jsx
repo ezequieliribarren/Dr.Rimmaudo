@@ -13,7 +13,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <Link smooth to="/#" className="navbar-brand px-3"><img className='logo-navbar' src="./images/logo.png" alt="" /></Link>
+          <Link smooth to="/#" className="navbar-brand px-3"><img className='logo-navbar' src="./images/logo.png" alt="Logo" /></Link>
           <button
             className={`navbar-toggler ${isMenuOpen ? "collapsed" : ""}`}
             type="button"

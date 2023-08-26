@@ -9,7 +9,7 @@ const Trayectoria = () => {
             <div className='capacitations'>
                 <div className='card-capacitations'>
                     <div className='capacitations-img'>
-                        <img src="/images/trayectoria/img1.png" alt="" />
+                        <img src="/images/trayectoria/img1.png" alt="Trayectoria" />
                     </div>
                     <div className='capacitations-description'>
                         <div><h3>Médico | UBA</h3></div>
@@ -19,7 +19,7 @@ const Trayectoria = () => {
                 </div>
                 <div className='card-capacitations'>
                     <div className='trayecto-img'>
-                        <img src="/images/trayectoria/img2.png" alt="" />
+                        <img src="/images/trayectoria/img2.png" alt="Trayectoria" />
                     </div>
                     <div className='capacitations-description'>
                         <div><h3>Especialización
@@ -30,7 +30,7 @@ Cardiología | UBA</h3></div>
                 </div>
                 <div className='card-capacitations'>
                     <div className='trayecto-img'>
-                        <img src="/images/trayectoria/img3.png" alt="" />
+                        <img src="/images/trayectoria/img3.png" alt="Trayectoria" />
                     </div>
                     <div className='capacitations-description'>
                         <div><h3> 

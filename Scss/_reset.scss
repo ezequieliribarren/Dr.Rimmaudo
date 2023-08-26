@@ -104,3 +104,14 @@ li {
     src: url(/public/fonts/AbhayaLibre-ExtraBold.ttf);
     font-display: swap;
 }
+
+@media (max-width: 860px) {
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3{
+    text-align: center !important;
+}
+}
