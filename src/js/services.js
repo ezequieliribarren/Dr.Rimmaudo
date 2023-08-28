@@ -33,7 +33,7 @@ const services = [
     
     {
         id: 4,
-        titulo: "Certificado de Aptitud Fisica Competitiva",
+        titulo: "Certificado de Aptitud Física Competitiva",
         img: "/images/servicios/img3.png",
         li1: "Interrogatorio en búsqueda de factores de riesgo cardiovascular.",
         li2: "Ergometría( Prueba Ergometrica Graduada).",

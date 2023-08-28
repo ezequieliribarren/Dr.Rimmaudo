@@ -41,7 +41,7 @@ const Contacto = () => {
           />
             <input
             type="tel"
-            placeholder="Telefono" name='user_tel'
+            placeholder="Teléfono" name='user_tel'
             required
           />
           <textarea className='textarea' 
