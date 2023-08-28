@@ -8,7 +8,7 @@ const Consultorio = () => {
                 <div className="row p-3">
                     <div className="col consult-left">
                         <p>
-                            Disponemos de tres consultorios. Dos ubicdos en la zona de capital y uno en la zona de Caseros ( Tres de Febrero - Provincia de Bs. As.). Trabajamos sólo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
+                            Disponemos de tres consultorios. <strong>Sede capital</strong> (Ceretti 2098 Villa Urquiza) y <strong>Sede Gran Bs. AS.</strong> (Agustín Cafferata 5210, Caseros). Trabajamos sólo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
                         </p>
                         <p>
                             Si estás buscando un enfoque personalizado y comprometido con tu bienestar cardiovascular, no dudes en contactarme para programar tu consulta. Mi objetivo es acompañarte en el camino hacia una vida más saludable, brindándote las mejores opciones de tratamiento y cuidado para tu salud.

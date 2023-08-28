@@ -5,7 +5,7 @@ const LiniaDeTiempo = () => {
   const timelineData = [
     { id: 1, year: '2000', title: 'Médico', institution: 'UBA' },
     { id: 2, year: '2003', title: 'Médico residente de cardiología', institution: 'Hospital Durand' },
-    { id: 3, year: '2009', title: 'Fellow de electrofisiología cardíaca', institution: 'Fund. Favaloro' },
+    { id: 3, year: '2008', title: 'Fellow de electrofisiología cardíaca', institution: 'Fund. Favaloro' },
     { id: 4, year: '2010', title: 'Medicina deportiva', institution: 'UBA' },
     { id: 5, year: '2012', title: 'Administración hospitalaria', institution: 'UBA' },
     { id: 6, year: '2022', title: 'Jefe de internación coronaria', institution: 'Hospital Pirovano' },

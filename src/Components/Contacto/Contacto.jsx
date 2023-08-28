@@ -61,7 +61,7 @@ const Contacto = () => {
           <div><h4>También <br /> visitame en:</h4></div>
           <div className='red'><a target='_blank' href="https://m.facebook.com/diego.rimmaudo.5/"><img src="/images/contacto/facebook.png" alt="Facebook" />@drrimaudo</a></div>
           <div className='red'><a target='_blank' href="https://www.instagram.com/dr.rimmaudo/"><img src="/images/contacto/instagram.png" alt="Instagram" />@drrimaudo</a></div>
-          <div className='red'><a href=""><img src="/images/contacto/google.png" alt="Google" />Doctor Rimaudo</a></div>
+          <div className='red'><a target='_blank' href="https://g.co/kgs/v4Y1jv"><img src="/images/contacto/google.png" alt="Google" />Doctor Rimaudo</a></div>
           </div>
     </section>
 

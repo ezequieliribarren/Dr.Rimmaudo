@@ -14,7 +14,7 @@ const Footer = () => {
                         <div className='iconos-redes'>
                            <a target='_blank' href="https://m.facebook.com/diego.rimmaudo.5/"><img src="/images/face.png" alt="Facebook" /></a> 
                             <a target='_blank' href="https://www.instagram.com/dr.rimmaudo/"><img src="/images/insta.png" alt="Instagram" /></a>
-                            <img src="/images/contacto/gog.png" alt="Google" />
+                            <a target='_blank' href="https://g.co/kgs/v4Y1jv"><img src="/images/contacto/gog.png" alt="Google" /></a>
                         </div>
                     </div>
                 </div>

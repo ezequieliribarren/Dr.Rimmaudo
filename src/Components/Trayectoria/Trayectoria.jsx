@@ -7,7 +7,8 @@ const Trayectoria = () => {
         <section id='trayectoria'>
             <h2  className='margin-title'>Mi Trayectoria</h2>
             <div className='capacitations'>
-                <div className='card-capacitations'>
+                <div className="row row-card">
+                                    <div className='card-capacitations'>
                     <div className='capacitations-img'>
                         <img src="/images/trayectoria/img1.png" alt="Trayectoria" />
                     </div>
@@ -28,7 +29,10 @@ Cardiología | UBA</h3></div>
                         <div className='p-capacitations'><p>Soy especialista en Cardiología egresado de la Universidad de Buenos Aires.</p></div>
                     </div>
                 </div>
-                <div className='card-capacitations'>
+                </div>
+
+                <div className="row row-card">
+                              <div className='card-capacitations'>
                     <div className='trayecto-img'>
                         <img src="/images/trayectoria/img3.png" alt="Trayectoria" />
                     </div>
@@ -39,6 +43,22 @@ Medicina Deportiva | UBA</h3></div>
                         <div className='p-capacitations'><p>Me especializo en medicina deportiva, puedo guiarte a alcanzar tus objetivos de manera sana.</p></div>
                     </div>
                 </div>
+                <div className='card-capacitations'>
+                    <div className='trayecto-img'>
+                        <img src="/images/trayectoria/img4.png" alt="Trayectoria" />
+                    </div>
+                    <div className='capacitations-description'>
+                        <div><h3> 
+                        Especialización en 
+Electrofisiología Cardiaca</h3></div>
+                        <div className='line'></div>
+                        <div className='p-capacitations'><p>Me especializo en Electrofisiología Cardiaca 
+(arritmias y marcapasos).</p></div>
+                    </div>
+                </div>
+                </div>
+
+      
             </div>
             <LiniaDeTiempo/>
         </section>
