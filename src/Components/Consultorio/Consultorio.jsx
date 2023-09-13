@@ -6,15 +6,29 @@ const Consultorio = () => {
             <h2 className='margin-title'>Consultorios</h2>
             <div className='container-fluid'>
                 <div className="row p-3">
-                    <div className="col consult-left">
+                    <div className="col-lg-6 consult-left">
                         <p>
-                            Disponemos de tres consultorios. <strong>Sede capital</strong> (Ceretti 2098 Villa Urquiza) y <strong>Sede Gran Bs. AS.</strong> (Agustín Cafferata 5212, Caseros). Trabajamos sólo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
+                            Disponemos de dos consultorios. <strong>Sede capital</strong> (Ceretti 2098 Villa Urquiza) y <strong>Sede Gran Bs. AS.</strong> (Agustín Cafferata 5212, Caseros). Trabajamos sólo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
                         </p>
                         <p>
                             Si estás buscando un enfoque personalizado y comprometido con tu bienestar cardiovascular, no dudes en contactarme para programar tu consulta. Mi objetivo es acompañarte en el camino hacia una vida más saludable, brindándote las mejores opciones de tratamiento y cuidado para tu salud.
                         </p>
                         <p className='p-blue'>¡Pedí tu turno! </p>
 
+                    </div>
+                    <div className="col-lg-6">
+                        <div className='consultorios'>
+                            <div><img src="images/cons1.png" alt="" /><div><p>Consultorio CABA<br />
+                                <strong>Ceretti 2098, <br />Villa Urquiza</strong></p></div></div>
+                            
+                            <div><img src="images/cons2.png" alt="" /> <div><p>Consultorio Caseros<br />
+                                <strong>Agustín<br />Cafferata 5212</strong></p></div></div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div className="row p-3">
+                    <div className="col-lg-6">
                         <div className="canales-contacto">
                             <div className='canal'>
                                 <div className='img-canal'>
@@ -37,15 +51,17 @@ const Consultorio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col contenedor-maps">
+                    <div className="col-lg-6 contenedor-maps">
                         <div className='map-border'>
                             <div>
-                                <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.69681856833!2d-58.5745384243096!3d-34.61182727295134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb83e0409b309%3A0x91eebd33e4f834a3!2sAgust%C3%ADn%20Cafferata%205212%2C%20B1678BAL%20Caseros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1693342429607!5m2!1ses-419!2sar" width="600" height="450"></iframe>
+                                <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.69681856833!2d-58.5745384243096!3d-34.61182727295134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb83e0409b309%3A0x91eebd33e4f834a3!2sAgust%C3%ADn%20Cafferata%205212%2C%20B1678BAL%20Caseros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1693342429607!5m2!1ses-419!2sar" width="600" height="250"></iframe>
                                 <h4 className='direccion'>Agustín Cafferata 5212, Caseros</h4>
                             </div>
 
                         </div>
+
                     </div>
+
                 </div>
             </div>
         </section>
