@@ -50,5 +50,5 @@ El sitio web del Dr. Rimmaudo es una **one page** diseñada para proporcionar in
 
 Para cualquier pregunta o colaboración, no dudes en ponerte en contacto:
 
-- **Desarrollador:** [Tu Nombre](mailto:info@ezequieliribarren.com)
-- **Sitio Web:** [Tu Sitio Web](https://ezequieliribarren.com/)
+- **Desarrollador:** [Ezequiel Iribarren](mailto:info@ezequieliribarren.com)
+- **Sitio Web:** (https://ezequieliribarren.com/)
