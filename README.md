@@ -33,7 +33,8 @@ El sitio web del Dr. Rimmaudo es una **one page** diseñada para proporcionar in
 
 ## Tecnologías Utilizadas
 
-- **React:** Utilizado para la creación de componentes dinámicos y la estructura de la interfaz de usuario.
+- **React:** ![react](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/fd64b8f1-e248-41c1-a279-f4a4b442259d) Utilizado para la creación de componentes dinámicos y la estructura de la interfaz de usuario.
+
 
 - **React Router:** Implementación de enrutamiento para la navegación fluida dentro de la aplicación de una sola página.
 
