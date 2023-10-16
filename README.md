@@ -1,6 +1,6 @@
 # Proyecto DR. Rimmaudo 
 ![image](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/9857cc86-2ce4-4245-b110-c64cb4b571be)
-- [Enlace a la web] (https://www.drdiegobrimmaudo.com.ar/)
+- [Enlace a la web](https://www.drdiegobrimmaudo.com.ar/)
 
 
 Este proyecto representa un sitio web para el Dr. Rimmaudo, un profesional de la medicina (Cardiólogo). La página está diseñada como una **one page** y ofrece información sobre los servicios del doctor, testimonios de pacientes y la ubicación de su consultorio en un mapa interactivo. Además de contar con opciones rápidas de contacto con el profesional.
@@ -51,5 +51,5 @@ El sitio web del Dr. Rimmaudo es una **one page** diseñada para proporcionar in
 
 Para cualquier pregunta o colaboración, no dudes en ponerte en contacto:
 
-- **Desarrollador:** [Ezequiel Iribarren](mailto:info@ezequieliribarren.com)
-- **Sitio Web:** (https://ezequieliribarren.com/)
+- **E-mail:** [info@ezequieliribarren.com](mailto:info@ezequieliribarren.com)
+- **Sitio Web:** [Portfolio](https://ezequieliribarren.com/)
