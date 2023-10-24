@@ -1,5 +1,6 @@
 # Proyecto DR. Rimmaudo 
-![image](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/9857cc86-2ce4-4245-b110-c64cb4b571be)
+![image](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/56a217ed-8472-41fd-bedd-0965f2b249ec)
+
 - [Enlace a la web](https://www.drdiegobrimmaudo.com.ar/)
 
 
