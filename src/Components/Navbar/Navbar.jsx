@@ -28,39 +28,39 @@ const Navbar = () => {
             <span id="close-icon" className={`close-icon ${isMenuOpen ? "" : "d-none"}`}>&#88;</span>
           </button>
           <div className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`} id="navbarNav">
-  <ul className="navbar-nav ms-auto px-5">
-    <li className="nav-item">
-      <Link className="nav-link" smooth to="/#">
-        Inicio
-      </Link>
-    </li>
-    <li className="nav-item">
-      <Link smooth to="/#servicios" className="nav-link">
-        Servicios
-      </Link>
-    </li>
-    <li className="nav-item">
-      <Link smooth to="/#trayectoria" className="nav-link">
-        Mi trayectoria
-      </Link>
-    </li>
-    <li className="nav-item">
-      <Link smooth to="/#testimonios" className="nav-link">
-        Mis pacientes
-      </Link>
-    </li>
-    <li className="nav-item">
-      <Link smooth to="/#consultorio" className="nav-link">
-        Consultorio
-      </Link>
-    </li>
-    <li className="nav-item li-contact">
-      <Link smooth to="/#contacto" className="nav-link">
-        Contacto
-      </Link>
-    </li>
-  </ul>
-</div>
+            <ul className="navbar-nav ms-auto px-5">
+              <li className="nav-item">
+                <Link className="nav-link" smooth to="/#">
+                  Inicio
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link smooth to="/#servicios" className="nav-link">
+                  Servicios
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link smooth to="/#trayectoria" className="nav-link">
+                  Mi trayectoria
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link smooth to="/#testimonios" className="nav-link">
+                  Mis pacientes
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link smooth to="/#consultorio" className="nav-link">
+                  Consultorio
+                </Link>
+              </li>
+              <li className="nav-item li-contact">
+                <Link smooth to="/#contacto" className="nav-link">
+                  Contacto
+                </Link>
+              </li>
+            </ul>
+          </div>
 
         </div>
       </nav>
