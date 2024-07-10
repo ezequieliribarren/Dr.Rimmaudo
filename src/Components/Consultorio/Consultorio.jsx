@@ -8,7 +8,7 @@ const Consultorio = () => {
                 <div className="row p-3">
                     <div className="col-lg-6 consult-left">
                         <p>
-                            Disponemos de dos consultorios. <strong>Sede capital</strong> (Ceretti 2098 Villa Urquiza) y <strong>Sede Gran Bs. AS.</strong> (Agustín Cafferata 5212, Caseros). Trabajamos sólo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
+                         Nuestro consultorio se encuentra en <strong>Agustín Cafferata 5212, Caseros</strong> . Trabajamos sólo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
                         </p>
                         <p>
                             Si estás buscando un enfoque personalizado y comprometido con tu bienestar cardiovascular, no dudes en contactarme para programar tu consulta. Mi objetivo es acompañarte en el camino hacia una vida más saludable, brindándote las mejores opciones de tratamiento y cuidado para tu salud.
@@ -18,9 +18,6 @@ const Consultorio = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className='consultorios'>
-                            <div><img src="images/cons1.png" alt="" /><div><p>Consultorio CABA<br />
-                                <strong>Ceretti 2098, <br />Villa Urquiza</strong></p></div></div>
-                            
                             <div><img src="images/cons2.png" alt="" /> <div><p>Consultorio Caseros<br />
                                 <strong>Agustín<br />Cafferata 5212</strong></p></div></div>
                            
