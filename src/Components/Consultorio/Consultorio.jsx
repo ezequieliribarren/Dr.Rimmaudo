@@ -17,9 +17,12 @@ const Consultorio = () => {
 
                     </div>
                     <div className="col-lg-6">
-                        <div className='consultorios'>
+                        <div className='consultorios'>         
+                            <div style={{margin: "1rem"}}><img src="images/cons1.png" alt="" /> <div><p>Consultorio CABA<br />
+                                <strong>Blanco Encalada<br />3473 6° B, Belgrano.</strong></p></div></div>
                             <div><img src="images/cons2.png" alt="" /> <div><p>Consultorio Caseros<br />
                                 <strong>Agustín<br />Cafferata 5212</strong></p></div></div>
+                       
                            
                         </div>
                     </div>
@@ -51,8 +54,8 @@ const Consultorio = () => {
                     <div className="col-lg-6 contenedor-maps">
                         <div className='map-border'>
                             <div>
-                                <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.69681856833!2d-58.5745384243096!3d-34.61182727295134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb83e0409b309%3A0x91eebd33e4f834a3!2sAgust%C3%ADn%20Cafferata%205212%2C%20B1678BAL%20Caseros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1693342429607!5m2!1ses-419!2sar" width="600" height="250"></iframe>
-                                <h4 className='direccion'>Agustín Cafferata 5212, Caseros</h4>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5306619957373!2d-58.470091700000005!3d-34.5654369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb67dca958bf9%3A0xbe3e2c11a72f5159!2sBlanco%20Encalada%203473%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1720660412769!5m2!1ses-419!2sar" width="600" height="250" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <h4 className='direccion'>Blanco Encalada 3473 6° B, Belgrano</h4>
                             </div>
 
                         </div>
