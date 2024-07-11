@@ -7,10 +7,12 @@ const Consultorio = () => {
             <div className='container-fluid'>
                 <div className="row p-3">
                     <div className="col-lg-6 consult-left">
-                        <p>
-                         Nuestro consultorio se encuentra en <strong>Agustín Cafferata 5212, Caseros</strong> . Trabajamos sólo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
-                        </p>
-                        <p>
+                    <p>
+    La dirección de nuestra sede en CABA es <strong>Blanco Encalada 3473 6° B, Belgrano</strong>. Trabajamos solo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
+</p>
+<p>Atendemos también en nuestra sede de Caseros en <strong>Agustín Cafferata 5212</strong>.</p>
+<p>
+
                             Si estás buscando un enfoque personalizado y comprometido con tu bienestar cardiovascular, no dudes en contactarme para programar tu consulta. Mi objetivo es acompañarte en el camino hacia una vida más saludable, brindándote las mejores opciones de tratamiento y cuidado para tu salud.
                         </p>
                         <p className='p-blue'>¡Pedí tu turno! </p>
