@@ -12,23 +12,7 @@ const Testimonios = () => {
 
   
   return (
-    <section id='testimonios'>
-      <h2 className='margin-title'>Mis pacientes</h2>
-      <h3>Conocé testimonios de mis pacientes</h3>
-      <div className='container testimonios'>
-        <Carousel breakPoints={breakPoints}>
-          {testimonios.map((testimonio) => (
-            <div key={testimonio.id} className='testimonio'>
-              <img src={testimonio.imgUrl} alt="Testimonio" />
-              <div>
-                <p>{testimonio.description}</p>
-              </div>
-              
-            </div>
-          ))}
-        </Carousel>
-      </div>
-    </section>
+    <section id="testimonios"><h2 class="margin-title">Mis pacientes</h2><h3>Conocé testimonios de mis pacientes</h3><div class="reseñas"><iframe src="https://widgets.sociablekit.com/google-reviews/iframe/25439006" frameborder="0" width="90%" height="510"></iframe></div></section>
   )
 }
 
