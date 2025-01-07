@@ -20,24 +20,32 @@ const Header = () => {
             </div>
           </div>
           <div className="carousel-item" data-interval="1000">
-            <img src="/images/header/img2.png" className="d-block w-100 none-desktop" alt="Doctor Rimmaudo" />
-            <img src="/images/header/img4.png" className="d-block w-100 none-mobile" alt="Doctor Rimmaudo" />
+            <img src="/images/header/1.png" className="d-block w-100 none-desktop" alt="Doctor Rimmaudo" />
+            <img src="/images/header/1-tablet.png" className="d-block w-100 none-mobile" alt="Doctor Rimmaudo" />
             <div className="call-to-action">
               <button className='button2' onClick={handleLlamarClick}>Llamar</button>
               <a target='_blank' href='https://wa.me/+541164977403?text=Hola,%20estoy%20en%20la%20página%20del%20Dr.%20Rimmaudo%20y%20quiero%20 pedir%20más%20información"'><button className='button'>Contacto</button></a>
             </div>
           </div>
           <div className="carousel-item" data-interval="1000">
-            <img src="/images/header/img6.png" className="d-block w-100 none-desktop" alt="Doctor Rimmaudo" />
-            <img src="/images/header/img5.png" className="d-block w-100 none-mobile" alt="Doctor Rimmaudo" />
+            <img src="/images/header/2.png" className="d-block w-100 none-desktop" alt="Doctor Rimmaudo" />
+            <img src="/images/header/2-tablet.png" className="d-block w-100 none-mobile" alt="Doctor Rimmaudo" />
             <div className="call-to-action">
               <button className='button2' onClick={handleLlamarClick}>Llamar</button>
               <a target='_blank' href='https://wa.me/+541164977403?text=Hola,%20estoy%20en%20la%20página%20del%20Dr.%20Rimmaudo%20y%20quiero%20 pedir%20más%20información"'><button className='button'>Contacto</button></a>
             </div>
           </div>
           <div className="carousel-item" data-interval="1000">
-            <img src="/images/header/img8.png" className="d-block w-100 none-desktop" alt="Doctor Rimmaudo" />
-            <img src="/images/header/img7.png" className="d-block w-100 none-mobile" alt="Doctor Rimmaudo" />
+            <img src="/images/header/3.png" className="d-block w-100 none-desktop" alt="Doctor Rimmaudo" />
+            <img src="/images/header/3-tablet.png" className="d-block w-100 none-mobile" alt="Doctor Rimmaudo" />
+            <div className="call-to-action">
+              <button className='button2' onClick={handleLlamarClick}>Llamar</button>
+              <a target='_blank' href='https://wa.me/+541164977403?text=Hola,%20estoy%20en%20la%20página%20del%20Dr.%20Rimmaudo%20y%20quiero%20 pedir%20más%20información"'><button className='button'>Contacto</button></a>
+            </div>
+          </div>
+          <div className="carousel-item" data-interval="1000">
+            <img src="/images/header/4.png" className="d-block w-100 none-desktop" alt="Doctor Rimmaudo" />
+            <img src="/images/header/4-tablet.png" className="d-block w-100 none-mobile" alt="Doctor Rimmaudo" />
             <div className="call-to-action">
               <button className='button2' onClick={handleLlamarClick}>Llamar</button>
               <a target='_blank' href='https://wa.me/+541164977403?text=Hola,%20estoy%20en%20la%20página%20del%20Dr.%20Rimmaudo%20y%20quiero%20 pedir%20más%20información"'><button className='button'>Contacto</button></a>
