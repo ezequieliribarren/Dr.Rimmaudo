@@ -12,14 +12,6 @@ const Header = () => {
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active" data-interval="100">
-            <img src="/images/header/img1.png" className="d-block w-100 none-desktop" alt="Doctor Rimmaudo" />
-            <img src="/images/header/img3.png" className="d-block w-100 none-mobile" alt="Doctor Rimmaudo" />
-            <div className="call-to-action">
-              <button className='button2' onClick={handleLlamarClick}>Llamar</button>
-              <a target='_blank' href='https://wa.me/+541164977403?text=Hola,%20estoy%20en%20la%20página%20del%20Dr.%20Rimmaudo%20y%20quiero%20 pedir%20más%20información"'><button className='button'>Contacto</button></a>
-            </div>
-          </div>
-          <div className="carousel-item" data-interval="1000">
             <img src="/images/header/1.png" className="d-block w-100 none-desktop" alt="Doctor Rimmaudo" />
             <img src="/images/header/1-tablet.png" className="d-block w-100 none-mobile" alt="Doctor Rimmaudo" />
             <div className="call-to-action">
