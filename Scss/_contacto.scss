@@ -1,18 +1,13 @@
 #consultorio {
-    margin-bottom: 60px;
     scroll-margin-top: 7em;
 
     .consultorios{
         border-radius: 22px;
-        width: 640px !important;
-        background-color: #A4FAFF;
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: center;
         div{
             img{
-                padding-top: 8px;
-                padding-bottom: 8px;
                 width: 260px;
             }
             p{
@@ -45,6 +40,21 @@
 .direccion{
     color: #3012EA;
     text-align: center;
+}
+
+.contenedor-maps {
+    width: 100%;
+
+    .map-border {
+        width: 100%;
+    }
+
+    iframe {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: 200px;
+    }
 }
 
 .canal {
@@ -178,6 +188,15 @@
   .map-border, .consultorios {
       width: 100% !important;
 
+  }
+
+  .contenedor-maps{
+        flex-direction: column;
+        align-items: center;
+
+        iframe{
+            width: 100% !important;
+        }
   }
 
   .map-border{

@@ -3,29 +3,22 @@ import React from 'react';
 const Consultorio = () => {
     return (
         <section id='consultorio'>
-            <h2 className='margin-title'>Consultorios</h2>
+            <h2 className='margin-title'>Consultorio</h2>
             <div className='container-fluid'>
                 <div className="row p-3">
                     <div className="col-lg-6 consult-left">
-                    <p>
-    La dirección de nuestra sede en CABA es <strong>Blanco Encalada 3473 6° B, Belgrano</strong>. Trabajamos solo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
-</p>
-<p>Atendemos también en nuestra sede de Provincia en<strong> Garibaldi 1556</strong>.</p>
-<p>
-
-                            Si estás buscando un enfoque personalizado y comprometido con tu bienestar cardiovascular, no dudes en contactarme para programar tu consulta. Mi objetivo es acompañarte en el camino hacia una vida más saludable, brindándote las mejores opciones de tratamiento y cuidado para tu salud.
+                        <p>
+                            La dirección de nuestro consultorio es <strong>Blanco Encalada 3473 6° B, Belgrano</strong>. Trabajamos solo con turno previo, para brindar el tiempo y la dedicación que cada paciente merece, asegurando una atención de calidad.
+                        </p>
+                        <p>Si estás buscando un enfoque personalizado y comprometido con tu bienestar cardiovascular, no dudes en contactarme para programar tu consulta. Mi objetivo es acompañarte en el camino hacia una vida más saludable, brindándote las mejores opciones de tratamiento y cuidado para tu salud.
                         </p>
                         <p className='p-blue'>¡Pedí tu turno! </p>
 
                     </div>
                     <div className="col-lg-6">
-                        <div className='consultorios'>         
-                            <div style={{margin: "1rem"}}><img src="images/cons1.png" alt="" /> <div><p>Consultorio CABA<br />
+                        <div className='consultorios'>
+                            <div><img src="images/cons1.png" alt="" /> <div><p>Consultorio CABA<br />
                                 <strong>Blanco Encalada<br />3473 6° B, Belgrano.</strong></p></div></div>
-                            <div><img src="images/cons3.png" alt="" /> <div><p>Consultorio Jose Ingenieros<br />
-                                <strong>Garibaldi<br /> 1556 </strong></p></div></div>
-                       
-                           
                         </div>
                     </div>
                 </div>
@@ -40,7 +33,7 @@ const Consultorio = () => {
                             <div className='canal'>
                                 <div className='img-canal'>
                                     <img src="/images/contacto/mail.png" alt="" />
-                                </div> <h4>info@drdiegobrimmaudo.com.ar</h4> <a href="mailto:info@drdiegobrimmaudo.com.ar">contactar</a>
+                                </div> <h4>info@drrimmaudo.com.ar</h4> <a href="mailto:info@drrimmaudo.com.ar">contactar</a>
                             </div>
                             <div className='canal'>
                                 <div className='img-canal'>
@@ -56,17 +49,9 @@ const Consultorio = () => {
                     <div className="col-lg-6 contenedor-maps">
                         <div className='map-border'>
                             <div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5306619957373!2d-58.470091700000005!3d-34.5654369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb67dca958bf9%3A0xbe3e2c11a72f5159!2sBlanco%20Encalada%203473%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1720660412769!5m2!1ses-419!2sar" width="620" height="200" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5306619957373!2d-58.470091700000005!3d-34.5654369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb67dca958bf9%3A0xbe3e2c11a72f5159!2sBlanco%20Encalada%203473%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1720660412769!5m2!1ses-419!2sar" width="620" height="200" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 <h4 className='direccion'>Blanco Encalada 3473 6° B, Belgrano</h4>
                             </div>
-
-                        </div>
-                        <div className='map-border'>
-                            <div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.0115362214406!2d-58.53587730379544!3d-34.61896259109773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7e076addbb3%3A0xdd28b37178b33323!2sGaribaldi%201556%2C%20B1703AEB%20Jos%C3%A9%20Ingenieros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1729109314449!5m2!1ses!2sar" width="620" height="200"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                <h4 className='direccion'>Garibaldi 1556, Jose Ingenieros</h4>
-                            </div>
-
                         </div>
                     </div>
 
